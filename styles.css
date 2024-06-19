@@ -1,0 +1,163 @@
+html,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-size: 18px;
+}
+
+main {
+    font-family: 'Lato';
+    width: 100%;
+    margin-right:0%;
+}
+
+.navbar-nav {
+    margin-left: 40%;
+    font-size: 1.2rem;
+}
+
+.bg-body-custom {
+    background-color: #590004;
+}
+
+.nav-link {
+    color: white;
+    padding: 0.5rem;
+}
+
+.nav-link::hover {
+    color:#0b5d1e;
+}
+
+.headbox {
+    width: 100%;
+    height: 50vh;
+}
+
+.bkimg {
+    background-image: url(images/image1.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.headbox h1 {
+    position: relative;
+    height: 20%;
+    color: white;
+    top: 30%;
+    left: 3%;
+    font-size: 7rem;
+    font-family: 'Tangerine', cursive;
+}
+
+.intro {
+    height: 50vh;
+    width: auto;
+    background-color: #590004;
+    color:white;
+}
+
+.introtext p, .introtext h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    float: left;
+    margin-left: 4%;
+}
+
+.intro h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    margin-left:4%;
+}
+
+.introtext p {
+    word-wrap: break-word;
+    font-size: 1.2rem;
+}
+
+.introtext img {
+    float:right;
+    width:25vw;
+    height: auto;
+    margin-right: 5%;
+}
+
+.opening-times {
+    width: 100%;
+    background-color: #0b5d1e;
+    height: 35vh;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+.opening-text {
+    text-align: center;
+    color:white;
+}
+
+.opening-title {
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    margin-top: 0px;
+    padding-top: 0.3rem;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+
+.socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    height: 6vh;
+    background: linear-gradient(180deg, rgba(89,0,4,0.4375875350140056) 0%, rgba(89,0,4,0.6924894957983193) 39%, rgba(89,0,4,1) 100%);
+}
+
+.fa-twitter, .fa-facebook, .fa-instagram {
+    color: white;
+}
+
+.a-social {
+    color: white;
+    text-decoration-line: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 1.8rem;
+}
+
+footer {
+    background-color: #590004;
+    color: white;
+    margin-bottom: 0%;
+    height: 4vh;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-bottom:0%;
+    padding: 0.5vh;
+    background-color: #590004;
+}
+
+.footp1 {
+    text-align: left;
+    float: left;
+    padding-left: 2%;
+}
+.footp2 {
+    text-align: right;
+    float: right;
+    padding-right: 2%;
+}
+
+
