@@ -12,9 +12,7 @@ The website now has 3 static pages: Home, Menu and Booking.</p>
 <ul>
   <li>HTML: Structure of the website</li>
   <li>Bootstrap CSS: Styling and layout</li>
-  <li>JavaScript: Booking form pop-up</li>
+  <li>JavaScript: Booking form pop-up confirmation</li>
 </ul>
 
-<h2>How It Currently Looks </h2>
-<img width="960" alt="23 01 24 Screenshot" src="https://github.com/JoCal96/JS-to-do-app/assets/137909187/4dea6041-12a5-4f25-bd2d-7262825e3d3d">
 
