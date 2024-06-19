@@ -54,66 +54,69 @@ main {
 }
 
 .intro {
-    height: 50vh;
-    width: auto;
+    height: fit-content;
+    width: 100%;
     background-color: #590004;
-    color:white;
+    color: white;
+    padding: 2% 0;
 }
 
-.introtext p, .introtext h2 {
+.introtext {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 50vw;
-    float: left;
-    margin-left: 4%;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+
+.introtext p {
+    width: 50%;
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 .intro h2 {
     font-family: 'Tangerine', cursive;
     font-size: 5rem;
-    margin-left:4%;
-}
-
-.introtext p {
-    word-wrap: break-word;
-    font-size: 1.2rem;
+    margin: 0 0 1% 4%;
 }
 
 .introtext img {
-    float:right;
-    width:25vw;
+    width: 25%;
     height: auto;
-    margin-right: 5%;
+    margin-left: 2%;
 }
-
 .opening-times {
     width: 100%;
     background-color: #0b5d1e;
-    height: 35vh;
-    margin-top: 0px;
+    height: auto;
+    padding: 3% 0;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display:flex;
 }
 
 .opening-text {
     text-align: center;
-    color:white;
+    color: white;
 }
 
 .opening-title {
     font-family: 'Tangerine', cursive;
     font-size: 5rem;
-    margin-top: 0px;
-    padding-top: 0.3rem;
+    margin: 0;
+    padding: 0.3rem 0;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
     font-size: 1.5rem;
 }
 
+ul li {
+    margin: 0.5rem 0; /* Add margin to space out list items */
+}
 
 .socials {
     width: 100%;
