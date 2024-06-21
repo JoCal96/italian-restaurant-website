@@ -1,0 +1,172 @@
+html,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-size: 18px;
+}
+
+/* NAV STYLING */
+.navbar-nav {
+    margin-left: 40%;
+    font-size: 1.2rem;
+}
+
+.bg-body-custom {
+    background-color: #590004;
+}
+
+.nav-link {
+    color: white;
+    padding: 0.5rem;
+}
+
+.nav-link:hover {
+    color:#0b5d1e;
+}
+
+/* MAIN STYLING */
+main {
+    font-family: 'Lato';
+    width: 100%;
+    margin-right:0%;
+}
+
+.headbox {
+    width: 100%;
+    height: 50vh;
+}
+
+.bkimg {
+    background-image: url(images/image1.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.headbox h1 {
+    position: relative;
+    height: 20%;
+    color: white;
+    top: 30%;
+    left: 3%;
+    font-size: 7rem;
+    font-family: 'Tangerine', cursive;
+}
+
+.intro {
+    height: fit-content;
+    width: 100%;
+    background-color: hsl(357, 100%, 17%, 0.9);
+    color: white;
+    padding: 2% 0;
+}
+
+.introtext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+
+.introtext p {
+    width: 50%;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.intro h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    margin: 0 0 1% 4%;
+}
+
+.introtext img {
+    width: 25%;
+    height: auto;
+    margin-left: 2%;
+}
+.opening-times {
+    width: 100%;
+    background-color: hsl(134, 79%, 20%, 0.9);
+    height: auto;
+    padding: 0.5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening-text {
+    text-align: center;
+    color: white;
+}
+
+.opening-title {
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0.1rem 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+.explore-cards {
+    padding: 1%;
+}
+
+/* FOOTER STYLING */
+footer {
+    background: linear-gradient(180deg, rgba(89,0,4,0.4375875350140056) 0%, rgba(89,0,4,0.6924894957983193) 39%, rgba(89,0,4,1) 100%);    color: white;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1%;
+}
+
+.fa-twitter, .fa-facebook, .fa-instagram {
+    color: white;
+}
+
+.a-social {
+    color: white;
+    text-decoration: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 1.8rem;
+}
+footer p {
+    font-size: 0.8rem;
+    margin: 0.5vh 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footp1 {
+    text-align: left;
+    padding-left: 2%;
+}
+
+.footp2 {
+    text-align: right;
+    padding-right: 2%;
+}
+
+
