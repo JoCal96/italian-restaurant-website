@@ -1,0 +1,31 @@
+html,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-size: 18px;
+}
+
+main {
+    font-family: 'Lato';
+    width: 100%;
+    margin-right:0%;
+}
+
+.navbar-nav {
+    margin-left: 40%;
+    font-size: 1.2rem;
+}
+
+.bg-body-custom {
+    background-color: #590004;
+}
+
+.nav-link {
+    color: white;
+    padding: 0.5rem;
+}
+
+.nav-link:hover {
+    color:#0b5d1e;
+}
