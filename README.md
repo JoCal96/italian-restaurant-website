@@ -16,5 +16,6 @@ The website now has 3 static pages: Home, Menu and Booking.</p>
 </ul>
 
 <h2>What the web app looks like:</h2>
-<img width="641" alt="Home Screenshot" src="https://github.com/JoCal96/italian-restaurant-website/assets/137909187/b43c7105-132f-4b58-b926-d8d3673e0a6d">
+<img width="738" alt="Screenshot 2024-07-04 174612" src="https://github.com/JoCal96/italian-restaurant-website/assets/137909187/763cbe0a-66a2-4f2b-9862-10de79e15032">
+
 <img width="641" alt="Menu Screenshot" src="https://github.com/JoCal96/italian-restaurant-website/assets/137909187/933f595d-2aae-49aa-a375-046c2db26a15">
