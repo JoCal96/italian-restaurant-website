@@ -1,15 +1,14 @@
-html,body{
+html, body {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     font-size: 18px;
 }
 
 main {
     font-family: 'Lato';
     width: 100%;
-    margin-right:0%;
 }
 
 /* NAV STYLING */
@@ -30,6 +29,7 @@ main {
 .nav-link:hover {
     color:#0b5d1e;
 }
+
 
 /* CAROUSEL STYLING */
 .carousel {
@@ -100,7 +100,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .socials {
@@ -138,5 +138,34 @@ footer p {
     padding-right: 2%;
 }
 
+/* RESPONSIVE STYLING */
+@media screen and (max-width: 768px){
+    .carousel {
+        height: 30vh;
+    }
+    .menuContainer{
+        display: inline;
+    }
+    .bookButton {
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+    .socials i {
+        visibility: hidden;
+    }
+    .socials a {
+        font-size: 1.2rem;
+    }
+    .footp1, .footp2 {
+        font-size: 0.5rem;
+    }
+
+
+}
+@media only screen and (min-width: 600px){
+    .footp1, .footp2 {
+        font-size: 0.5rem;
+    }
+}
 
 

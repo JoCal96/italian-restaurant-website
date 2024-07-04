@@ -178,4 +178,42 @@ footer p {
     padding-right: 2%;
 }
 
-
+/* RESPONSIVE STYLING */
+@media screen and (max-width: 768px){
+    .introtext img {
+        visibility: hidden;
+    }
+    .introtext p {
+        width: 100%;
+    }
+    .headbox h1 {
+        font-size: 4rem;
+    }
+    .intro h2 {
+        font-size: 3rem;
+    }
+    .opening-title {
+        font-size: 3rem;
+    }
+    .socials i {
+        visibility: hidden;
+    }
+    .socials a {
+        font-size: 1.2rem;
+    }
+    .footp1, .footp2 {
+        font-size: 0.5rem;
+    }
+    
+}
+@media only screen and (min-width: 600px){
+    .introtext img {
+        visibility: hidden;
+    }
+    .introtext p {
+        width: 100%;
+    }
+    .footp1, .footp2 {
+        font-size: 0.5rem;
+    }
+}

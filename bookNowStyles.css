@@ -75,6 +75,7 @@ main {
     justify-content: space-between;
     align-items: stretch;
     width: 100%;
+
 }
 
 .side-image {
@@ -128,4 +129,42 @@ footer p {
 .footp2 {
     text-align: right;
     padding-right: 2%;
+}
+
+/* RESPONSIVE STYLING */
+@media screen and (max-width: 768px){
+    .side-image {
+        visibility: hidden;
+        width:10px;
+    }
+    .bookingform {
+        width: 100%;
+    }
+    .bookingheader{
+        font-size: 3.5rem;
+    }
+    .socials i {
+        visibility: hidden;
+    }
+    .socials a {
+        font-size: 1.2rem;
+    }
+    .footp1, .footp2 {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .side-image {
+        padding: 0%;
+    }
+    .bookingform {
+        width: 100%;
+    }
+    .bookingheader{
+        font-size: 3.5rem;
+    }
+    .footp1, .footp2 {
+        font-size: 0.5rem;
+    }
 }
